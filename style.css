@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+body
+{ 
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(flight3.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+h3{
+    color:white;
+    margin: auto ;
+
+}
+.booking-form-box{
+    /*max-width:500px;
+    border:2px solid #fff;
+    margin: 10% auto 0;
+    padding: 0 20px 20px;*/
+   
+   /*display:flex;
+   justify-content:center;*/
+
+   border:1px solid #fff;
+    width:500px;
+    height:480px;
+    position:relative;
+    margin:6% auto;
+    /*background: white;*/
+    padding:5px;
+    overflow:hidden;
+}
+
+.radio-btn
+{
+    margin:auto;
+    
+}
+
+.radio-btn.btn
+{
+    margin: 30px 20px 30px 0;
+    box-shadow:none;
+}
+
+.radio-btn.btn::after
+{
+   content:'';
+   height:15px;
+   width:15px;
+   top:-2px;
+   left:-1px;
+   background-color:#fff;
+   position:relative;
+   display:inline-block;
+   border:3px solid #fff;
+   visibility:visible;
+   border-radius:50%;
+
+}
+
+
+.radio-btn.btn:checked::after
+{
+   content:'';
+   background-color:#000;
+   transition:0.5s;
+
+}
+
+.radio-btn span
+{
+    color:#fff;
+    margin-right:5px;
+    font-size:15px;
+}
+
+.booking-form label
+{
+    margin-bottom:5px;
+    margin-top:10px;
+    font-size:15px;
+    color:#fff;
+}
+input::placeholder
+{
+    color:black !important;
+}
+
+.input-grp
+{
+    width:auto;
+    display:inline-block;
+}
+.form-control
+{
+    font-size:15px !important;
+    border-radius:0;
+    color:black !important;
+    /*background: transparent !important;*/
+    width:300%;
+    
+    box-shadow:none !important;
+}
+
+.select-date::webkit-inner-spin-button,
+.select-date::webkit-inner-spin-button
+{
+    -webkit-appearance:none;
+    margin:0;
+    
+}
+
+.select-date::webkit-calendar-picker-indicator
+{
+    background:transparent !important;
+}
+
+.custom-select
+{
+    font-size:15px!important;
+    color:white!important;
+    border:1px solid#ced4da !important;
+    border-radius:0!important;
+    box-shadow:none !important;
+    background:transparent !important;
+}
+
+.custom-select option
+{
+    color:#333;
+
+}
+
+.flight
+{
+    width: 320%;
+    padding:9px 0 !important;
+    font-size: 12px !important ;
+    border: 1px solid #ced4da !important;
+    /*background:transparent !important;*/
+    box-shadow: none !important;
+    border-radius: 0!important;
+}
+
+.flight:hover
+{
+    background: #fff !important;
+    color:#000 !important;
+    transition: 0.3s;
+}
+
+
+
+

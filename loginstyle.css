@@ -1,0 +1,82 @@
+/* Login page */
+
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(flight3.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.login-page
+{
+    max-width:500px;
+    border:3px solid #fff;
+    margin: 10% auto 0;
+    padding: 0 20px 20px;
+    
+
+}
+
+.login-box
+{
+    padding: 0 20px 20px;
+}
+
+.login-box label
+{
+    margin-bottom:2px;
+    margin-top:10px;
+    font-size:15px;
+    color:#fff;
+}
+
+
+.Login-btn
+{
+    width: 100%;
+    margin-top:15px;
+    padding:9px 0 !important;
+    font-size: 15px !important ;
+    border: 1px solid #ced4da !important;
+    /*background:transparent !important;*/
+    box-shadow: none !important;
+    border-radius: 0!important;
+   /* height:20px!important; 
+    width:100px !important; 
+    margin: -20px -50px !important; 
+    position:relative !important;
+    top:50% !important; 
+    left:50% !important;*/
+    
+}
+
+.Login-btn:hover
+{
+    background: #fff !important;
+    color:#000 !important;
+    transition: 0.3s;
+}
+
+p
+{
+    margin-top:15px !important;
+    color:white;
+    display:flex;
+   justify-content:center;
+}
+
+span{
+    padding-left: 5px !important;
+    
+}
+
+a {
+    color:red!important;
+  }
+a:hover
+{
+    
+    color: white !important;
+    transition: 0.1s !important;
+}
+

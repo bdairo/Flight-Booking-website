@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Booking form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+       <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+        <h3> <strong>Book A Flight With Us</strong></h3>
+
+    </head>
+
+    <div class="booking-form-box">
+       
+            <div class="booking-form">
+                <div class="radio-btn">
+                <input type="radio" class ="btn" name="check"checked="checked"> <span><strong>Roundtrip </strong></span>
+                 <input type="radio" class ="btn" name="check"><span><strong> One-way </strong></span>
+                <input type="radio" class ="btn" name="check"><span><strong>Multi-City</strong></span>
+                </div>
+
+                <label> <strong>Flying From </strong></label>
+                <input type="text" class="form-control" placeholder="City or Airport">
+                <label> <strong>Flying To </strong></label>
+                <input type="text" class="form-control" placeholder="City or Airport">
+        
+                <div class="input-grp">
+                    <label> <strong>Departing</strong></label>
+                    <input type="date" class="form-control select-date">
+                </div>
+        
+                <div class="input-grp">
+                    <label><strong>Returning </strong></label>
+                    <input type="date" class="form-control select-date">
+                </div>
+        
+                <div class="input-grp">
+                    <label><strong>Adults</strong></label>
+                    <input type="number" class="form-control" value="1">
+                </div>
+        
+                <div class="input-grp">
+                    <label><strong>Kids </strong></label>
+                    <input type="number" class="form-control" value="0">
+                </div>
+        
+                <div class="input-grp">
+                    <label><strong>Travel Class </strong></label>
+                    <select class="custom-select">
+                        <option value="1"> Economy Class</option>
+                        <option value="2"> Business Class</option>
+                        <option value="3"> First Class</option>
+                    </select>
+                    
+                </div>
+                <div class="input-grp">
+                    <button type="button" class="btn btn-primary flight"> Book Flight</button>
+                </div>
+            </div>
+        
+            </div>
+        
+        
+         
+            
+        </div>
+
+
+</html>
