@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(flight3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  float: left;
+  justify-content: center;
+}
+
+.button-box {
+  width: 320px;
+  height: 50px;
+  margin: 6% auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  /*background: transparent;*/
+  border: 0;
+  outline: none;
+  position: relative;
+  margin: auto;
+  height: 50px;
+}
+
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 80px;
+  transition: 0.5s;
+}
+
+span {
+  margin-left: 5px;
+}
+
+.booking-form-box {
+  border: 1px solid #fff;
+  width: 500px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  /*background: white;*/
+  padding: 5px;
+  overflow: hidden;
+}
+
+.radio-btn {
+  margin: auto;
+}
+
+.radio-btn.btn {
+  margin: 30px 20px 30px 0;
+  box-shadow: none;
+}
+
+.radio-btn.btn::after {
+  content: "";
+  height: 15px;
+  width: 15px;
+  top: -2px;
+  left: -1px;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  border: 3px solid #fff;
+  visibility: visible;
+  border-radius: 50%;
+}
+
+:checked {
+  content: "";
+  background-color: #000;
+  transition: 0.5s;
+}
+
+.radio-btn span {
+  color: #fff;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.booking-form label {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #fff;
+}
+input::placeholder {
+  color: black !important;
+}
+
+.input-grp {
+  width: auto;
+  display: inline-block;
+}
+.form-control {
+  font-size: 15px !important;
+  border-radius: 0;
+  color: black !important;
+  background: transparent !important;
+  width: 120%;
+
+  box-shadow: none !important;
+}
+
+.select-date::webkit-inner-spin-button,
+.select-date::webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  color: white;
+}
+
+.select-date::webkit-calendar-picker-indicator {
+  background: transparent !important;
+}
+
+.custom-select {
+  font-size: 15px !important;
+  color: white !important;
+  border: 1px solid#ced4da !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.custom-select option {
+  color: #333;
+}
+
+.flight {
+  margin-top: 10px;
+  width: 320%;
+  padding: 9px 0 !important;
+  font-size: 12px !important ;
+  border: 1px solid #ced4da !important;
+  background: blue !important;
+  color: white;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.flight:hover {
+  background: #fff !important;
+  color: #000 !important;
+  transition: 0.3s;
+}
+
+.new-input-grp {
+  width: auto;
+  margin-left: 500px;
+  display: inline-block;
+}
+
+.new-input-group {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-left: 500px;
+  display: inline-block;
+}
